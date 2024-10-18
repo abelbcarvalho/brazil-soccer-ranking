@@ -20,13 +20,24 @@ Basically it consists of make requests with required data, so our system will tr
 This project will make **web scrapping** at ESPN Brasil site. Please copy/paste or rename [.env.example](/.env.example) to [**.env**](/.env) file.
 
 ## Dependencies
-You need **Python3.12** or over installed or consider to use an alternative version. See [**Faq**](#faq) about Python environments and install it.
+You need **Python3.12.3** or over installed or consider to use an alternative version. See [**Faq**](#faq) about Python environments and install it.
 
 Once Python is installed, I recommend to create a python environment to test this project, `.venv`... So just run:
 
 * `pip install -r requirements.txt`
-* File: [requirements.txt]()
+* File: [requirements.txt](/requirements.txt)
 * There, you can find the whole list of this project dependencies.
+
+<details>
+    <summary>Installing ALL dependencies manually</summary>
+    <ol>
+        <li>FastAPI: <code>pip install "fastapi[standard]"</code></li>
+        <li>DotEnv: <code>pip install dotenv</code></li>
+        <li>Pydantic: <code>pip install pydantic</code></li>
+        <li>Clipboard: <code>pip install clipboard</code></li>
+        <li>PlayWright: <code>pip install playwright</code></li>
+    </ol>
+</details>
 
 ## How to Run?
 Once dependencies okay and file **.env** found, run the file [**app.py**](/app.py).
@@ -95,7 +106,7 @@ Url: /ranking/{year}
         Once PyEnv installed, just type: <code>pyenv install 3.x.x</code> where 3.x.x represents a version number.
     </p>
     <p>
-        Example: <code>pyenv install 3.12</code>
+        Example: <code>pyenv install 3.12.3</code>
     </p>
     <p>
         Make it global? Type: <code>pyenv global version</code>
