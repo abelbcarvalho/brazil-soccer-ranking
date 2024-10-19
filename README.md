@@ -51,6 +51,7 @@ src/
 ├──core/
 ├──├──web_scrapping/
 ├──exceptions/
+├──models/
 ├──routes/
 ├──service/
 ├──use_cases/
@@ -84,9 +85,9 @@ Url: /ranking/{year}
       "name": "Team A",
       "points": 9,
       "matches": 3,
-      "win": 3,
-      "draw": 0,
-      "lost": 0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
       "goals_for": 8,
       "goals_against": 2,
       "accuracy": "100"
