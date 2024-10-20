@@ -15,6 +15,7 @@ class SoccerTeam(BaseModel):
     losses: int
     goals_for: int
     goals_against: int
+    goals_difference: int
     accuracy: Decimal
 
 

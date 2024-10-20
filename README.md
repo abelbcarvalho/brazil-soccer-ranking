@@ -75,8 +75,11 @@ Method: POST
 Url: /ranking/{year}
 ```
 
+Note: **year** parameter must be an integer between 2006 and the current year.
+
 ## Response
 > **Response: Brazilian Championship Racking**
+
 ```json
 {
   "brazilian_championship_ranking": [
@@ -90,6 +93,7 @@ Url: /ranking/{year}
       "losses": 0,
       "goals_for": 8,
       "goals_against": 2,
+      "goals_difference": 6,
       "accuracy": "100"
     }
   ]
