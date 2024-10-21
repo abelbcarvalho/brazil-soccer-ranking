@@ -27,6 +27,7 @@ Once Python is installed, I recommend to create a python environment to test thi
 * `pip install -r requirements.txt`
 * File: [requirements.txt](/requirements.txt)
 * There, you can find the whole list of this project dependencies.
+* Then, if required, run the following command: `playwright install`
 
 <details>
     <summary>Installing ALL dependencies manually</summary>
